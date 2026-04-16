@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>謝雨安的個人網站</title>
+    <style>
+
+        body {
+            background-color: #DFDBE5;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%239C92AC' fill-opacity='0.15'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+            font-family: 'Noto Serif TC', serif; /* 使用 Noto Serif TC 字體 */
+            margin: 0;
+            padding: 0;
+            text-align: center; /* 整個頁面文字居中對齊 */
+
+            h1 {
+                 margin: 80px 0 20px 0; /* 增加 margin-top，讓文字往下移 */
+                font-family: inherit; /* 繼承 body 的 font-family */
+            }
+        }
+          .button-group {
+        display: flex;
+        flex-direction: column; /* 改排列 */
+        gap: 30px;
+         margin-top: 100px;
+        justify-content: center; /* 按鈕居中對齊 */
+              align-items: center; /* 按鈕垂直居中 */
+        width: 100%; /* 綁定到頁面寬度 */
+        }
+
+       .button-group a {
+            padding: 15px 20px;
+            background-color: #9c92ac;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            width: 160px; /* 調整按鈕 */
+            max-width: 160px; /* 防止過大 */
+            text-align: center; /* 讓文字居中 */
+        }
+        footer {
+            background-color: #544360;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 12px;
+            margin-top: 30px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 2px 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>謝雨安的個人網站</h1>
+
+
+    <div class="button-group">
+        <a href="/about">關於我</a>
+        <a href="/test">我的測驗結果</a>
+        <a href="/mis">MIS工作分析</a>
+        <a href="/resume">求職履歷</a>
+    </div>
+<footer>
+        <p>© 2026 謝雨安的個人網站。所有權利保留。</p>
+        <p>聯絡我們：940905amber@gmail.com</p>
+</footer>
+</body>
+
+</html>
